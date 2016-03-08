@@ -16,7 +16,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // cors setup
 var corsOptions = {
-  origin: process.env.FRONTEND
+  origin: process.env.FRONTEND,
+  Access-Control-Allow-Credentials: true
 };
 app.use(cors(corsOptions));
 
