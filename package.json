@@ -1,0 +1,32 @@
+{
+  "name": "warroom-client",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.2.1",
+    "npm": "2.14.7"
+  },
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "dotenv": "^2.0.0",
+    "cors": "^2.7.1",
+    "ejs": "^2.4.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanSmith89/galvanize-warroom-client.git"
+  },
+  "author": "Ian Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanSmith89/galvanize-warroom-client/issues"
+  },
+  "homepage": "https://github.com/IanSmith89/galvanize-warroom-client#readme"
+}
